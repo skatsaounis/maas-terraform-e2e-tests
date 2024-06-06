@@ -103,7 +103,7 @@ resource "maas_vm_host" "tf_test_vm_host" {
   type    = "lxd"
 
   timeouts {
-    create = "40m"
+    create = "120m"
   }
 }
 
